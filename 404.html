@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page not found — RestartIT</title>
+  <meta name="description" content="That page couldn't be found. Head back home or get in touch with RestartIT." />
+  <meta name="theme-color" content="#18253F" />
+  <meta name="robots" content="noindex" />
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="64x64" href="/assets/favicon-64.png" />
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/styles.css" />
+  <style>
+    .nf { min-height: 78vh; display: grid; place-items: center; text-align: center; }
+    .nf__logo { width: 120px; margin: 0 auto 28px; border-radius: 20px; box-shadow: var(--shadow); }
+    .nf h1 { font-size: clamp(2.4rem, 1.6rem + 4vw, 4rem); }
+    .nf .code { font-family: var(--font-head); font-weight: 700; color: var(--brown-300); letter-spacing: 0.2em; }
+    .nf p { color: var(--text-muted); max-width: 46ch; margin: 14px auto 28px; }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Primary">
+        <a class="nav__brand" href="/index.html" aria-label="RestartIT home">
+          <img src="/assets/logo-horizontal.png" alt="RestartIT" />
+        </a>
+        <div class="nav__menu">
+          <div class="nav__cta">
+            <a class="btn btn--primary" href="/index.html">Back home</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="nf container">
+      <div>
+        <img class="nf__logo" src="/assets/logo-square.png" alt="RestartIT" />
+        <p class="code">404</p>
+        <h1>Page not found</h1>
+        <p>The page you're looking for has moved or never existed. Let's get you back on track.</p>
+        <div class="btn-row" style="justify-content:center">
+          <a class="btn btn--primary btn--lg" href="/index.html">Go to homepage</a>
+          <a class="btn btn--ghost btn--lg" href="/contact.html">Contact us</a>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

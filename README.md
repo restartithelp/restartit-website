@@ -18,7 +18,7 @@ Static, multi-page marketing site for **RestartIT** — flat-rate, mobile, on-si
 ├── js/
 │   └── main.js           # Mobile nav, scroll reveals, footer year
 └── assets/
-    ├── logo-horizontal.png        # Nav + footer lockup (cream on navy)
+    ├── logo-horizontal.png        # Nav + footer lockup (transparent bg, cream text)
     ├── logo-horizontal-light.png  # Transparent lockup (navy text, for light use)
     ├── logo-square.png            # Circular mark — hero + social
     ├── favicon-32.png / favicon-64.png / apple-touch-icon.png

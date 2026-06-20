@@ -1,14 +1,14 @@
 # RestartIT website
 
-Static, multi-page marketing site for **RestartIT** — flat-rate, mobile, on-site residential IT support serving Paris, Brantford and southern Ontario. Hosted on **GitHub Pages** at **https://restartithelp.ca**.
+Static, multi-page marketing site for **RestartIT**, flat-rate, mobile, on-site residential IT support serving Paris, Brantford and southern Ontario. Hosted on **GitHub Pages** at **https://restartithelp.ca**.
 
 ## Structure
 
 ```
 .
-├── CNAME                 # custom domain (restartithelp.ca) — do not delete
+├── CNAME                 # custom domain (restartithelp.ca), do not delete
 ├── .nojekyll             # serve files as-is (skip Jekyll processing)
-├── index.html            # Home — hero, what I do, why mobile/flat-rate, FAQ, CTAs
+├── index.html            # Home, hero, what I do, why mobile/flat-rate, FAQ, CTAs
 ├── services.html         # Core / Additional / Add-on service tiers (no prices)
 ├── about.html            # About RestartIT + Meet the Team (placeholder profiles)
 ├── contact.html          # Contact details + embedded Google booking form
@@ -20,12 +20,12 @@ Static, multi-page marketing site for **RestartIT** — flat-rate, mobile, on-si
 └── assets/
     ├── logo-horizontal.png        # Nav + footer lockup (transparent bg, cream text)
     ├── logo-horizontal-light.png  # Transparent lockup (navy text, for light use)
-    ├── logo-square.png            # Circular mark — hero + social
+    ├── logo-square.png            # Circular mark, hero + social
     ├── favicon-32.png / favicon-64.png / apple-touch-icon.png
     └── og-image.png               # 1200×630 social share image
 ```
 
-There is no build step — it's plain HTML, CSS and a little vanilla JS. Open any `.html` file in a browser to preview, or run a local server from this folder.
+There is no build step, it's plain HTML, CSS and a little vanilla JS. Open any `.html` file in a browser to preview, or run a local server from this folder.
 
 ## Brand
 
@@ -34,7 +34,7 @@ There is no build step — it's plain HTML, CSS and a little vanilla JS. Open an
 | Navy         | `#18253F` | Primary background / brand            |
 | Deep navy    | `#0F1A2E` | Footer, section gradients             |
 | Cream        | `#F4EFE9` | Primary text on navy                  |
-| Copper-brown | `#A8714A` | Accent — buttons, links, highlights   |
+| Copper-brown | `#A8714A` | Accent, buttons, links, highlights   |
 | Steel-blue   | `#9FB0CB` | Muted/secondary text                  |
 
 All colours live as CSS variables at the top of `css/styles.css`.

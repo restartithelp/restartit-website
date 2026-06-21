@@ -147,7 +147,7 @@ h1, h2, h3, h4 { font-family: var(--font-head); font-weight: 600; line-height: 1
 .nav[data-open="true"] .nav__toggle .icon-open { display: none; }
 .nav[data-open="true"] .nav__toggle .icon-close { display: block; }
 
-@media (max-width: 960px) {
+@media (max-width: 1000px) {
   .nav__toggle { display: inline-flex; }
   .nav__menu {
     position: fixed; inset: var(--header-h) 0 auto 0;

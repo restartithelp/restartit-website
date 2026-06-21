@@ -8,9 +8,10 @@ Static, multi-page marketing site for **RestartIT**, flat-rate, mobile, on-site 
 .
 ├── CNAME                 # custom domain (restartithelp.ca), do not delete
 ├── .nojekyll             # serve files as-is (skip Jekyll processing)
-├── index.html            # Home, hero, what I do, why mobile/flat-rate, FAQ, CTAs
+├── index.html            # Home, hero, what we do, why mobile/flat-rate, service area, CTAs
 ├── services.html         # Core / Additional / Add-on service tiers (no prices)
 ├── about.html            # About RestartIT + Meet the Team (placeholder profiles)
+├── faq.html              # FAQ accordion on its own page (+ FAQPage schema)
 ├── contact.html          # Contact details + embedded Google booking form
 ├── 404.html              # Branded not-found page
 ├── css/
